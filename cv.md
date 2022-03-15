@@ -1,5 +1,5 @@
 __Contacts and basic informations__
-{:.photo}
+
 ![photo](../rsschool-cv/img/photo-little.jpg)
 
 + First name: Anastasia
