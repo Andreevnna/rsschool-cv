@@ -1,6 +1,6 @@
 __Contacts and basic informations__
-
-![photo](/img/photo.jpg )
+{:.photo}
+![photo](../rsschool-cv/img/photo-little.jpg )
 
 + First name: Anastasia
 + Last name: Buzmaakova
