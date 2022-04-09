@@ -1,0 +1,44 @@
+.header {
+    padding: 40px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+
+    li {
+        list-style: none;
+        padding: 0 35px 0 0;
+
+        a {
+            color: $color-additional;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-link-hover;
+            }
+
+            &:active {
+                color: $color-link-hover;
+                border-bottom: 1px solid $color-primary;
+            }
+        }
+    }
+}
+
+.logo-title {
+    color: $color-primary;
+    letter-spacing: 0.06em;
+}
+
+.logo-subtitle {
+    color: $color-light;
+    padding: 10px 0 0 0px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}

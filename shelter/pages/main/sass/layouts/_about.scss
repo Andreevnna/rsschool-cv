@@ -1,0 +1,13 @@
+.layout-2-column {
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-page {
+    padding: 90px 0 100px 0;
+}
+.about-page__text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}

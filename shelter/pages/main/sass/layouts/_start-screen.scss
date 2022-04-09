@@ -1,0 +1,24 @@
+.start {
+    background: url("../../../../../shelter/assets/images/start-screen-background.jpg "), 
+    radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    background-position: center center;
+    background-size: cover;
+}
+
+.start-screen__content {
+    padding: 163px 0 243px 0;
+
+    h2 {
+        color: $color-light;
+    }
+
+    p {
+        padding: 42px 0;
+        color: $color-additional;
+    }
+}
+
+.start-screen {
+    display: flex;
+    justify-content: space-between;
+}

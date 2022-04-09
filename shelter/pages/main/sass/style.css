@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Georgia";
+  src: url("../../assets/fonts/georgia.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Arial";
+  src: url("../../assets/fonts/arialmt.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  padding: 40px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+  padding: 0 35px 0 0;
+}
+.navigation li a {
+  color: #CDCDCD;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  color: #FAFAFA;
+}
+.navigation li a:active {
+  color: #FAFAFA;
+  border-bottom: 1px solid #F1CDB3;
+}
+
+.logo-title {
+  color: #F1CDB3;
+  letter-spacing: 0.06em;
+}
+
+.logo-subtitle {
+  color: #ffffff;
+  padding: 10px 0 0 0px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+}
+
+.start {
+  background: url("../../../../../shelter/assets/images/start-screen-background.jpg "), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+  background-position: center center;
+  background-size: cover;
+}
+
+.start-screen__content {
+  padding: 163px 0 243px 0;
+}
+.start-screen__content h2 {
+  color: #ffffff;
+}
+.start-screen__content p {
+  padding: 42px 0;
+  color: #CDCDCD;
+}
+
+.start-screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout-2-column {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-page {
+  padding: 90px 0 100px 0;
+}
+
+.about-page__text {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.button__colored {
+  background: #F1CDB3;
+  border-radius: 100px;
+  padding: 15px 45px;
+  color: #292929;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* reset style browser */
+/* reset style browser */
+/* box-sizing */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.5rem;
+  font-style: "Arial";
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+h2 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+}
+
+h3 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+h4 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+h5 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+p, a {
+  font-family: "Arial";
+  font-size: 1.5rem;
+  line-height: 160%;
+}
+
+/* box-sizing */
+/* fonts style */
+/* fonts style */
+/* sections */
+.grey_section {
+  background: #F6F6F6;
+}
+
+.white_section {
+  background: #fff;
+}
+
+/* sections */
+/* colors */
+.accent_color {
+  color: #F1CDB3;
+}
+
+.dark_color {
+  color: #545454;
+}
+
+/* colors */
+.color_white {
+  color: #fff;
+}
+
+/* special style */
+.logo_title {
+  padding-bottom: 10px;
+}
+
+/* font face */
+
+/*# sourceMappingURL=style.css.map */
