@@ -288,6 +288,101 @@
   color: #B2B2B2;
 }
 
+.icon-card {
+  background: url(../../../../../shelter/assets/icons/credit-card.svg);
+  width: 30px;
+  height: 23px;
+  display: block;
+}
+
+.footer {
+  background: url(../../../../../shelter/assets/images/footer-background.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+  width: 100%;
+  background-size: cover;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.footer-content {
+  -webkit-column-gap: 160px;
+          column-gap: 160px;
+  padding-top: 40px;
+}
+
+.footer-content h3 {
+  color: #ffffff;
+}
+
+.footer-content h4 {
+  color: #F1CDB3;
+}
+
+.icon-contacts {
+  width: 40px;
+  height: 32px;
+  display: block;
+}
+
+.icon-location {
+  display: block;
+  width: 22px;
+  height: 32px;
+}
+
+.icon-mark {
+  background: url(../../../../../shelter/assets/icons/pin.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.footer__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 32px;
+}
+
+.icon_email {
+  background: url(../../../../../shelter/assets/icons/icon-email.svg);
+}
+
+.icon_phone {
+  background: url(../../../../../shelter/assets/icons/icon-phone.svg);
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 40px;
+}
+
 .button_colored {
   background: #F1CDB3;
 }
@@ -311,6 +406,17 @@
           box-sizing: border-box;
   border-radius: 100px;
   background: none;
+}
+
+.button_donation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  padding: 10px 15px;
+  background: #F1CDB3;
+  border-radius: 9px;
 }
 
 *,
@@ -387,7 +493,6 @@ h4 {
   line-height: 115%;
   color: #545454;
   letter-spacing: 0.06em;
-  color: #545454;
 }
 
 h5 {

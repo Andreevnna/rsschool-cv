@@ -1,0 +1,55 @@
+.footer {
+    background: url(../../../../../shelter/assets/images/footer-background.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;;
+    width: 100%;
+    background-size: cover;
+}
+.location {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.footer-content {
+    column-gap: 160px;
+    padding-top: 40px;
+    h3 {
+        color: $color-light;
+    }
+    h4 {
+        color: $color-primary
+    }
+}
+.icon-contacts {
+    width: 40px;
+    height: 32px;
+    display: block;
+}
+.icon-location {
+    display: block;
+    width: 22px;
+    height: 32px;
+}
+.icon-mark{
+    background: url(../../../../../shelter/assets/icons/pin.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.footer__location {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.icon_email{
+    background: url(../../../../../shelter/assets/icons/icon-email.svg);
+}
+.icon_phone {
+    background: url(../../../../../shelter/assets/icons/icon-phone.svg);
+}
+.contacts {
+    display: flex;
+    column-gap: 20px;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
