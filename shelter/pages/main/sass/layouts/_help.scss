@@ -1,16 +1,68 @@
 .icon {
     width: 60px;
     height: 60px;
-    content: "";
     display: block;
 }
+
 .icon-food {
     background: url(../../../../../shelter/assets/icons/icon-pet-food.svg);
 }
+
 .icon-transport {
     background: url(../../../../../shelter/assets/icons/icon-transportation.svg);
 }
+
+.icon-toys {
+    background: url(../../../../../shelter/assets/icons/icon-toys.svg);
+}
+
+.icon-cups {
+    background: url(../../../../../shelter/assets/icons/icon-bowls-and-cups.svg);
+}
+
+.icon-shampoos {
+    background: url(../../../../../shelter/assets/icons/icon-shampoos.svg);
+}
+
+.icon-vitamins {
+    background: url(../../../../../shelter/assets/icons/icon-vitamins.svg);
+}
+
+.icon-medicines {
+    background: url(../../../../../shelter/assets/icons/icon-medicines.svg);
+}
+
+.icon-collars {
+    background: url(../../../../../shelter/assets/icons/icon-collars-leashes.svg);
+}
+
+.icon-area {
+    background: url(../../../../../shelter/assets/icons/icon-sleeping-area.svg);
+}
+
 .list-help-content {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 80px 100px 80px;
+    column-gap: 120px;
+    row-gap: 55px;
+    justify-content: center;
+}
+
+.help {
+    h3 {
+        text-align: center;
+        padding: 80px 0 60px 0;
+    }
+}
+
+.item__list {
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        text-decoration: none;
+    }
 }

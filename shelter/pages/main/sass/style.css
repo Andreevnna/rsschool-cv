@@ -4,12 +4,14 @@
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
   font-family: "Arial";
   src: url("../../../../../shelter/assets/fonts/arialmt.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
+
 .wrapper {
   max-width: 1200px;
   margin: auto;
@@ -17,24 +19,34 @@
 
 .header {
   padding: 40px 0 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .navigation li {
   list-style: none;
   padding: 0 35px 0 0;
 }
+
 .navigation li a {
   color: #CDCDCD;
   text-decoration: none;
 }
+
 .navigation li a:hover {
   color: #FAFAFA;
 }
+
 .navigation li a:active {
   color: #FAFAFA;
   border-bottom: 1px solid #F1CDB3;
@@ -48,7 +60,7 @@
 .logo-subtitle {
   color: #ffffff;
   padding: 10px 0 0 0px;
-  font-family: "Arial";
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -65,17 +77,23 @@
 .start-screen__content {
   padding: 163px 0 243px 0;
 }
+
 .start-screen__content h2 {
   color: #ffffff;
 }
+
 .start-screen__content p {
   padding: 42px 0;
   color: #CDCDCD;
 }
 
 .start-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .start-screen__photo {
@@ -84,8 +102,12 @@
 }
 
 .layout-2-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .about-page {
@@ -94,8 +116,13 @@
 
 .about-page__text {
   width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   row-gap: 25px;
 }
 
@@ -109,8 +136,11 @@
 }
 
 .layout-3-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .slider {
@@ -118,10 +148,17 @@
 }
 
 .slider__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   row-gap: 30px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #FAFAFA;
 }
 
@@ -136,7 +173,6 @@
 .icon {
   width: 60px;
   height: 60px;
-  content: "";
   display: block;
 }
 
@@ -148,9 +184,67 @@
   background: url(../../../../../shelter/assets/icons/icon-transportation.svg);
 }
 
+.icon-toys {
+  background: url(../../../../../shelter/assets/icons/icon-toys.svg);
+}
+
+.icon-cups {
+  background: url(../../../../../shelter/assets/icons/icon-bowls-and-cups.svg);
+}
+
+.icon-shampoos {
+  background: url(../../../../../shelter/assets/icons/icon-shampoos.svg);
+}
+
+.icon-vitamins {
+  background: url(../../../../../shelter/assets/icons/icon-vitamins.svg);
+}
+
+.icon-medicines {
+  background: url(../../../../../shelter/assets/icons/icon-medicines.svg);
+}
+
+.icon-collars {
+  background: url(../../../../../shelter/assets/icons/icon-collars-leashes.svg);
+}
+
+.icon-area {
+  background: url(../../../../../shelter/assets/icons/icon-sleeping-area.svg);
+}
+
 .list-help-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 80px 100px 80px;
+  -webkit-column-gap: 120px;
+          column-gap: 120px;
+  row-gap: 55px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.help h3 {
+  text-align: center;
+  padding: 80px 0 60px 0;
+}
+
+.item__list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 30px;
+  text-decoration: none;
 }
 
 .button_colored {
@@ -161,7 +255,7 @@
   border-radius: 100px;
   padding: 15px 45px;
   color: #292929;
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -172,18 +266,17 @@
 
 .button_border {
   border: 2px solid #F1CDB3;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 100px;
   background: none;
 }
 
-/* reset style browser */
-/* reset style browser */
-/* box-sizing */
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 h1,
@@ -198,7 +291,7 @@ p {
 
 body {
   font-size: 1.5rem;
-  font-style: "Arial";
+  font-style: 'Arial';
   margin: 0;
   padding: 0;
 }
@@ -208,7 +301,8 @@ button {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 10px;
   margin: 0;
   padding: 0;
@@ -219,7 +313,7 @@ h2, h3, h4 {
 }
 
 h1 {
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -227,7 +321,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -235,23 +329,25 @@ h2 {
 }
 
 h3 {
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
+  color: #545454;
 }
 
 h4 {
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
+  color: #545454;
 }
 
 h5 {
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -259,20 +355,9 @@ h5 {
 }
 
 p, a {
-  font-family: "Arial";
+  font-family: 'Arial';
   font-size: 1.5rem;
   line-height: 160%;
   color: #4C4C4C;
 }
-
-/* box-sizing */
-/* fonts style */
-/* fonts style */
-/* sections */
-/* sections */
-/* colors */
-/* colors */
-/* special style */
-/* font face */
-
 /*# sourceMappingURL=style.css.map */
