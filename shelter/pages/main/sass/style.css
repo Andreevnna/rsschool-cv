@@ -12,6 +12,13 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Arial";
+  src: url("../../../../../shelter/assets/fonts/arial_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: auto;
@@ -247,6 +254,40 @@
   text-decoration: none;
 }
 
+.donation {
+  background: #F6F6F6;
+}
+
+.donation-page {
+  padding: 80px 0 100px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.content-donation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+  width: 32%;
+}
+
+.information p {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+
 .button_colored {
   background: #F1CDB3;
 }
@@ -335,6 +376,7 @@ h3 {
   font-size: 35px;
   line-height: 130%;
   color: #545454;
+  letter-spacing: 0.06em;
 }
 
 h4 {
@@ -344,6 +386,8 @@ h4 {
   font-size: 20px;
   line-height: 115%;
   color: #545454;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
 
 h5 {
@@ -352,6 +396,8 @@ h5 {
   font-weight: 400;
   font-size: 15px;
   line-height: 110%;
+  color: #545454;
+  letter-spacing: 0.06em;
 }
 
 p, a {

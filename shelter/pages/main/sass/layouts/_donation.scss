@@ -1,0 +1,27 @@
+.donation {
+    background: $color-background-additional;
+}
+
+.donation-page {
+    padding: 80px 0 100px 0;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.content-donation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 32%;
+}
+
+.information {
+    p {
+        font-family: "Arial";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #B2B2B2;
+    }
+}

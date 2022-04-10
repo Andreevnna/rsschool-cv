@@ -54,6 +54,7 @@ h3 {
     font-size: 35px;
     line-height: 130%;
     color: $color-text-additional;
+    letter-spacing: 0.06em;
 }
 
 h4 {
@@ -63,6 +64,8 @@ h4 {
     font-size: 20px;
     line-height: 115%;
     color: $color-text-additional;
+    letter-spacing: 0.06em;
+    color: #545454;
 }
 
 h5 {
@@ -71,6 +74,8 @@ h5 {
     font-weight: 400;
     font-size: 15px;
     line-height: 110%;
+    color: #545454;
+    letter-spacing: 0.06em;
 }
 
 p, a {
