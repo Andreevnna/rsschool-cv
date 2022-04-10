@@ -1,0 +1,16 @@
+.icon {
+    width: 60px;
+    height: 60px;
+    content: "";
+    display: block;
+}
+.icon-food {
+    background: url(../../../../../shelter/assets/icons/icon-pet-food.svg);
+}
+.icon-transport {
+    background: url(../../../../../shelter/assets/icons/icon-transportation.svg);
+}
+.list-help-content {
+    display: flex;
+    flex-wrap: wrap;
+}

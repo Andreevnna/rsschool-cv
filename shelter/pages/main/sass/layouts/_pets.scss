@@ -1,0 +1,27 @@
+.pets-title {
+    text-align: center;
+}
+.pets {
+    background: $color-background-additional;
+    padding: 80px 0 100px 0;
+}
+.layout-3-column {
+    display: flex;
+    justify-content: space-around;
+}
+.slider{
+    padding: 60px 0;
+}
+.slider__card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    background: $color-light-s;
+}
+.pets__button__primary {
+    text-align: center;
+}
+.pets__button__secondary {
+    padding-bottom: 30px;
+}

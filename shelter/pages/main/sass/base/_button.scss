@@ -1,5 +1,7 @@
-.button__colored {
-    background: #F1CDB3;
+.button_colored {
+    background: $color-primary;
+}
+.button {
     border-radius: 100px;
     padding: 15px 45px;
     color: $color-button;
@@ -10,4 +12,10 @@
     line-height: 130%;
     letter-spacing: 0.06em;
     cursor: pointer;
+}
+.button_border {
+    border: 2px solid $color-primary;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: none;
 }

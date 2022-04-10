@@ -126,7 +126,9 @@ html {
     margin: 0;
     padding: 0;
 }
-
+h2,h3,h4 {
+    color: $color-text-additional;
+}
 h1 {
     font-family: 'Georgia';
     font-style: normal;
@@ -171,6 +173,7 @@ p, a {
     font-family: 'Arial';
     font-size: 1.5rem;
     line-height: 160%;
+    color: $color-text-primary;
 }
 /* box-sizing */
 
@@ -199,24 +202,9 @@ p, a {
 // }
 
 
-
-.grey_section {
-    background: #F6F6F6;
-}
-
-.white_section {
-    background: #fff;
-}
-
 /* sections */
 /* colors */
-.accent_color {
-    color: $color-primary
-}
 
-.dark_color {
-    color: #545454
-}
 
 /* colors */
 // .wrapper {
@@ -226,14 +214,8 @@ p, a {
 //     justify-content: space-between;
 // }
 
-.color_white {
-    color: #fff
-}
-
 /* special style */
-.logo_title {
-    padding-bottom: 10px;
-}
+
 
 // header {
 //     display: flex;

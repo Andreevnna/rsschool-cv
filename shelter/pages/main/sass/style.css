@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Georgia";
-  src: url("../../assets/fonts/georgia.ttf") format("truetype");
+  src: url("../../../../../shelter/assets/fonts/georgia.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Arial";
-  src: url("../../assets/fonts/arialmt.ttf") format("truetype");
+  src: url("../../../../../shelter/assets/fonts/arialmt.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
@@ -78,6 +78,11 @@
   justify-content: space-between;
 }
 
+.start-screen__photo {
+  position: relative;
+  bottom: -11px;
+}
+
 .layout-2-column {
   display: flex;
   justify-content: space-evenly;
@@ -94,8 +99,65 @@
   row-gap: 25px;
 }
 
-.button__colored {
+.pets-title {
+  text-align: center;
+}
+
+.pets {
+  background: #F6F6F6;
+  padding: 80px 0 100px 0;
+}
+
+.layout-3-column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider {
+  padding: 60px 0;
+}
+
+.slider__card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  background: #FAFAFA;
+}
+
+.pets__button__primary {
+  text-align: center;
+}
+
+.pets__button__secondary {
+  padding-bottom: 30px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  content: "";
+  display: block;
+}
+
+.icon-food {
+  background: url(../../../../../shelter/assets/icons/icon-pet-food.svg);
+}
+
+.icon-transport {
+  background: url(../../../../../shelter/assets/icons/icon-transportation.svg);
+}
+
+.list-help-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button_colored {
   background: #F1CDB3;
+}
+
+.button {
   border-radius: 100px;
   padding: 15px 45px;
   color: #292929;
@@ -106,6 +168,13 @@
   line-height: 130%;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.button_border {
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background: none;
 }
 
 /* reset style browser */
@@ -143,6 +212,10 @@ html {
   font-size: 10px;
   margin: 0;
   padding: 0;
+}
+
+h2, h3, h4 {
+  color: #545454;
 }
 
 h1 {
@@ -189,40 +262,17 @@ p, a {
   font-family: "Arial";
   font-size: 1.5rem;
   line-height: 160%;
+  color: #4C4C4C;
 }
 
 /* box-sizing */
 /* fonts style */
 /* fonts style */
 /* sections */
-.grey_section {
-  background: #F6F6F6;
-}
-
-.white_section {
-  background: #fff;
-}
-
 /* sections */
 /* colors */
-.accent_color {
-  color: #F1CDB3;
-}
-
-.dark_color {
-  color: #545454;
-}
-
 /* colors */
-.color_white {
-  color: #fff;
-}
-
 /* special style */
-.logo_title {
-  padding-bottom: 10px;
-}
-
 /* font face */
 
 /*# sourceMappingURL=style.css.map */
