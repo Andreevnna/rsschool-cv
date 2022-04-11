@@ -4,9 +4,8 @@
     background-size: cover;
 }
 .location {
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 32px 1fr;
 }
 .footer-content {
     column-gap: 160px;
@@ -24,15 +23,11 @@
     display: block;
 }
 .icon-location {
-    display: block;
     width: 22px;
     height: 32px;
+    background-image: url(../../../../../shelter/assets/icons/icon-marker.png)
 }
-.icon-mark{
-    background: url(../../../../../shelter/assets/icons/pin.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-}
+
 .footer__location {
     display: flex;
     flex-direction: column;

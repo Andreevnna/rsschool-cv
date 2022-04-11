@@ -1,5 +1,9 @@
 .button_colored {
     background: $color-primary;
+    &:hover {
+        background: #FDDCC4;
+        transition: all 0.3s;
+    }
 }
 .button {
     border-radius: 100px;
@@ -18,6 +22,11 @@
     box-sizing: border-box;
     border-radius: 100px;
     background: none;
+    &:hover {
+        background: #FDDCC4;
+        border: 2px solid #FDDCC4;
+        transition: all 0.3s;
+    }
 }
 .button_donation {
     display: flex;
@@ -25,4 +34,28 @@
     padding: 10px 15px;
     background: #F1CDB3;
     border-radius: 9px;
+}
+.button__pagination {
+    height: 52px;
+    width: 52px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.icon-next {
+    background: url(../../../../../shelter/assets/icons/Arrow_next.png);
+}
+.icon-back {
+    background: url(../../../../../shelter/assets/icons/Arrow_back.png);
+}
+.icon-slider {
+    margin: 10px;
+    height: 6px;
+    width: 14px;
+    display: block;
+}
+.button_inactive {
+    background: none;
+    border: 2px solid $color-additional;
+    color: $color-additional;
+    cursor:auto;
 }

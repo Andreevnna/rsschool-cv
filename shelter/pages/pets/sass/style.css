@@ -20,7 +20,7 @@
 }
 
 .header {
-  padding: 30px 0;
+  padding: 40px 0 60px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,6 +43,7 @@
 .navigation li .active {
   color: #292929;
   border-bottom: 3px solid #F1CDB3;
+  padding-bottom: 4px;
 }
 
 .navigation li a {
@@ -52,11 +53,8 @@
 
 .navigation li a:hover {
   color: #292929;
-}
-
-.navigation li a:focus {
-  color: #292929;
-  border-bottom: 3px solid #F1CDB3;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .logo-title {
@@ -89,14 +87,6 @@
   padding: 80px 0 100px 0;
 }
 
-.layout-3-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .slider {
   padding: 60px 0;
 }
@@ -116,12 +106,77 @@
   background: #FAFAFA;
 }
 
+.slider__card:hover {
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.3 ease-out;
+  transition: all 0.3 ease-out;
+}
+
+.slider__card:hover button {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.slider-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .pets__button__primary {
   text-align: center;
 }
 
 .pets__button__secondary {
   padding-bottom: 30px;
+}
+
+.pets__button__pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 0 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.pets__button__pagination button span {
+  font-family: "Georgia", 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.layout-4-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 30px;
+  padding-top: 60px;
+}
+
+.layout-3-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .footer {
@@ -131,15 +186,10 @@
 }
 
 .location {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 32px 1fr;
+      grid-template-columns: 32px 1fr;
 }
 
 .footer-content {
@@ -163,15 +213,9 @@
 }
 
 .icon-location {
-  display: block;
   width: 22px;
   height: 32px;
-}
-
-.icon-mark {
-  background: url(../../../../../shelter/assets/icons/pin.png);
-  background-repeat: no-repeat;
-  background-position: left center;
+  background-image: url(../../../../../shelter/assets/icons/icon-marker.png);
 }
 
 .footer__location {
@@ -216,6 +260,12 @@
   background: #F1CDB3;
 }
 
+.button_colored:hover {
+  background: #FDDCC4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .button {
   border-radius: 100px;
   padding: 15px 45px;
@@ -237,6 +287,13 @@
   background: none;
 }
 
+.button_border:hover {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .button_donation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,6 +303,35 @@
   padding: 10px 15px;
   background: #F1CDB3;
   border-radius: 9px;
+}
+
+.button__pagination {
+  height: 52px;
+  width: 52px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.icon-next {
+  background: url(../../../../../shelter/assets/icons/Arrow_next.png);
+}
+
+.icon-back {
+  background: url(../../../../../shelter/assets/icons/Arrow_back.png);
+}
+
+.icon-slider {
+  margin: 10px;
+  height: 6px;
+  width: 14px;
+  display: block;
+}
+
+.button_inactive {
+  background: none;
+  border: 2px solid #CDCDCD;
+  color: #CDCDCD;
+  cursor: auto;
 }
 
 *,
@@ -339,5 +425,9 @@ p, a {
   font-size: 1.5rem;
   line-height: 160%;
   color: #4C4C4C;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

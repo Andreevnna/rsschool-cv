@@ -18,6 +18,20 @@
     row-gap: 30px;
     align-items: center;
     background: $color-light-s;
+    &:hover{
+        background: $color-light;
+        cursor: pointer;
+        transition: all 0.3 ease-out;
+        button{
+            background: #FDDCC4;
+            border: 2px solid #FDDCC4;
+            transition: all 0.3s;
+        }
+    }
+}
+.slider-navigation {
+    display: flex;
+    align-items: center;
 }
 .pets__button__primary {
     text-align: center;
