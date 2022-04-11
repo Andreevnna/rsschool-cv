@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sass/style.css">
-    <!-- <link rel="stylesheet" href="reset.css"> -->
-    <title>Document</title>
+    <title>Main</title>
 </head>
 
 <body>
@@ -15,19 +14,19 @@
         <div class="wrapper">
             <header class="header">
                 <div class="logo-header">
-                    <div class="logo-title">
-                        <h1> Cozy House</h1>
-                    </div>
-                    <div class="logo-subtitle">
-                        Shelter for pets in Boston
-                    </div>
+                    <a href="#">
+                        <h1 class="logo-title"> Cozy House</h1>
+                        <p class="logo-subtitle">
+                            Shelter for pets in Boston
+                        </p>
+                    </a>
                 </div>
                 <nav class="header-navigation">
                     <ul class="navigation">
                         <li><a class="active" href="#">About the shelter</a></li>
-                        <li><a href="">Our pets</a></li>
-                        <li><a href="">Help the shelter</a></li>
-                        <li><a href="">Contacts</a></li>
+                        <li><a href="../pets/our_pets.html">Our pets</a></li>
+                        <li><a href="#help">Help the shelter</a></li>
+                        <li><a href="#footer">Contacts</a></li>
                     </ul>
                 </nav>
             </header>
@@ -39,7 +38,9 @@
                     <p>We offer to give a chance to a little and nice puppy with an extremely <br>wide and open heart.
                         He or she will love you more than anybody else <br>in the world, you will see!</p>
                     <div class="content__button">
-                        <button class="button button_colored">Make a friend</button>
+                        <form action="#pets">
+                            <button type="submit" class="button button_colored">Make a friend</button>
+                        </form>
                     </div>
                 </div>
                 <div class="start-screen__photo">
@@ -67,7 +68,7 @@
             </div>
         </div>
     </section>
-    <section class="pets">
+    <section id="pets" class="pets">
         <div class="wrapper">
             <h3 class="pets-title">Our friends who </br>are looking for a house</h3>
             <div class="slider">
@@ -96,11 +97,13 @@
                 </div>
             </div>
             <div class="pets__button__primary">
-                <button class="button button_colored">Get to know the rest</button>
+                <form action="../pets/our_pets.html">
+                    <button type="submit" class="button button_colored">Get to know the rest</button>
+                </form>
             </div>
         </div>
     </section>
-    <section class="help">
+    <section id="help" class="help">
         <div class="wrapper">
             <h3>How you can help <br>our shelter</h3>
             <div class="list-help-content">
@@ -175,7 +178,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="wrapper">
             <div class="footer-content layout-3-column">
                 <div class="footer__contacts">

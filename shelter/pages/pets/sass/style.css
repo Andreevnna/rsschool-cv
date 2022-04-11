@@ -19,13 +19,8 @@
   font-weight: 400;
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: auto;
-}
-
 .header {
-  padding: 40px 0 60px 0;
+  padding: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,33 +41,31 @@
 }
 
 .navigation li .active {
-  color: #FAFAFA;
+  color: #292929;
   border-bottom: 3px solid #F1CDB3;
 }
 
 .navigation li a {
-  color: #CDCDCD;
+  color: #545454;
   text-decoration: none;
 }
 
 .navigation li a:hover {
-  color: #FAFAFA;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  color: #292929;
 }
 
-.navigation li a:active {
-  color: #FAFAFA;
-  border-bottom: 1px solid #F1CDB3;
+.navigation li a:focus {
+  color: #292929;
+  border-bottom: 3px solid #F1CDB3;
 }
 
 .logo-title {
-  color: #F1CDB3;
+  color: #545454;
   letter-spacing: 0.06em;
 }
 
 .logo-subtitle {
-  color: #ffffff;
+  color: #292929;
   padding: 10px 0 0 0px;
   font-family: 'Arial';
   font-style: normal;
@@ -82,62 +75,9 @@
   letter-spacing: 0.1em;
 }
 
-.start {
-  background: url("../../../../../shelter/assets/images/start-screen-background.jpg "), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-  background-position: center center;
-  background-size: cover;
-}
-
-.start-screen__content {
-  padding: 163px 0 243px 0;
-}
-
-.start-screen__content h2 {
-  color: #ffffff;
-}
-
-.start-screen__content p {
-  padding: 42px 0;
-  color: #CDCDCD;
-}
-
-.start-screen {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.start-screen__photo {
-  position: relative;
-  bottom: -11px;
-}
-
-.layout-2-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.about-page {
-  padding: 90px 0 100px 0;
-}
-
-.about-page__text {
-  width: 35%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  row-gap: 25px;
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .pets-title {
@@ -182,124 +122,6 @@
 
 .pets__button__secondary {
   padding-bottom: 30px;
-}
-
-.icon {
-  width: 60px;
-  height: 60px;
-  display: block;
-}
-
-.icon-food {
-  background: url(../../../../../shelter/assets/icons/icon-pet-food.svg);
-}
-
-.icon-transport {
-  background: url(../../../../../shelter/assets/icons/icon-transportation.svg);
-}
-
-.icon-toys {
-  background: url(../../../../../shelter/assets/icons/icon-toys.svg);
-}
-
-.icon-cups {
-  background: url(../../../../../shelter/assets/icons/icon-bowls-and-cups.svg);
-}
-
-.icon-shampoos {
-  background: url(../../../../../shelter/assets/icons/icon-shampoos.svg);
-}
-
-.icon-vitamins {
-  background: url(../../../../../shelter/assets/icons/icon-vitamins.svg);
-}
-
-.icon-medicines {
-  background: url(../../../../../shelter/assets/icons/icon-medicines.svg);
-}
-
-.icon-collars {
-  background: url(../../../../../shelter/assets/icons/icon-collars-leashes.svg);
-}
-
-.icon-area {
-  background: url(../../../../../shelter/assets/icons/icon-sleeping-area.svg);
-}
-
-.list-help-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 0 80px 100px 80px;
-  -webkit-column-gap: 120px;
-          column-gap: 120px;
-  row-gap: 55px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.help h3 {
-  text-align: center;
-  padding: 80px 0 60px 0;
-}
-
-.item__list a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  row-gap: 30px;
-  text-decoration: none;
-}
-
-.donation {
-  background: #F6F6F6;
-}
-
-.donation-page {
-  padding: 80px 0 100px 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
-}
-
-.content-donation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  row-gap: 20px;
-  width: 32%;
-}
-
-.information p {
-  font-family: "Arial";
-  font-style: italic;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  color: #B2B2B2;
-}
-
-.icon-card {
-  background: url(../../../../../shelter/assets/icons/credit-card.svg);
-  width: 30px;
-  height: 23px;
-  display: block;
 }
 
 .footer {
@@ -394,12 +216,6 @@
   background: #F1CDB3;
 }
 
-.button_colored:hover {
-  background: #FDDCC4;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 .button {
   border-radius: 100px;
   padding: 15px 45px;
@@ -419,13 +235,6 @@
           box-sizing: border-box;
   border-radius: 100px;
   background: none;
-}
-
-.button_border:hover {
-  background: #FDDCC4;
-  border: 2px solid #FDDCC4;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 .button_donation {
@@ -530,9 +339,5 @@ p, a {
   font-size: 1.5rem;
   line-height: 160%;
   color: #4C4C4C;
-}
-
-a {
-  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
