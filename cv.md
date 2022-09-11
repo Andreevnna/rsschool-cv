@@ -18,8 +18,16 @@ I have a little experience in creating websites. In my projects i used: HTNL, CS
 __Code Example__
 
 ```
-function typeOfSum(a, b) {
-  return typeof(a + b);
+function createFunctions(n) {
+  var callbacks = [];
+
+  for (let i=0; i<n; i++) {
+    callbacks.push(function() {
+      return i;
+    });
+  }
+  
+  return callbacks;
 }
 ```
 __Work experience__
