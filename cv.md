@@ -1,5 +1,7 @@
 __Contacts and basic informations__
 
+![photo](../rsschool-cv/img/photo.webp)
+
 + First name: Anastasia
 + Last name: Buzmaakova
 + Telegram: @Andreevna_1995
