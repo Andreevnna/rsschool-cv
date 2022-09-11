@@ -1,5 +1,7 @@
 __Contacts and basic informations__
 
+![photo](../rsschool-cv/img/photo.webp)
+
 + First name: Anastasia
 + Last name: Buzmaakova
 + Telegram: @Andreevna_1995
@@ -31,6 +33,3 @@ St. Petersburg State University Bonch-Bruyevich - bachelor 2021
 __My foreign languages__
 
 English - beginner
-
-
-
